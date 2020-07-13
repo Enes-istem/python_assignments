@@ -1,6 +1,6 @@
 while True :
     enter = int(input("bir sayı giriniz : "))
-    if (enter == 2) or (enter == 1):
+    if (enter == 2) or (enter == 1) or (enter ==3) or (enter == 5) or (enter == 7):
         print("asal sayı. ")
         
     elif  (enter %2 ==0) or (enter %3 == 0) or (enter %5 == 0) or (enter %7 ==0):
